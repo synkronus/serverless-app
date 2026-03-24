@@ -1,0 +1,40 @@
+{
+  "name": "firebase-students-app",
+  "version": "1.0.0",
+  "description": "Next.js application for Firebase student management with CSV import",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "import": "node firebase-import.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "next": "^14.2.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-hot-toast": "^2.4.1",
+    "recharts": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "nextjs",
+    "csv-import",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC"
+}
